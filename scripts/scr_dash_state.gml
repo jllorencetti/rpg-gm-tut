@@ -1,5 +1,10 @@
 ///scr_move_state
 
+// Get the direction based on face
+if (len == 0) { // If not moving
+    dir = face * 90;
+}
+
 // Get the length
 len = spd * 4;
 

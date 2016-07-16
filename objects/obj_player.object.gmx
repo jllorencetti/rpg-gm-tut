@@ -92,8 +92,16 @@ state = scr_move_state;
           <argument>
             <kind>1</kind>
             <string>/// Move the player
-event_inherited();
+// Position the "z layer" based on the y position
+// Objects closer to the bottom stays on top
+depth = -y;
+
 script_execute(state);
+
+// Check for death
+if (obj_player_stats.hp &lt;= 0) {
+    instance_destroy();
+}
 
 </string>
           </argument>
