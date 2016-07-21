@@ -64,7 +64,7 @@
     <instance objName="obj_enemy_slime" x="544" y="96" name="inst_7187DBCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_stats" x="96" y="64" name="inst_D5F4D576" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime" x="96" y="96" name="inst_EF024297" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_slime" x="576" y="288" name="inst_88429A50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_slime" x="480" y="256" name="inst_88429A50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime" x="480" y="192" name="inst_E38F4F7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime" x="96" y="288" name="inst_A8F9DB20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="544" y="320" name="inst_B3057CEA" locked="0" code="new_room = rm_two;&#xA;new_x = 64;&#xA;new_y = 36;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
