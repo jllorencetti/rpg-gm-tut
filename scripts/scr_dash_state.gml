@@ -1,4 +1,5 @@
 ///scr_move_state
+movement = MOVE;
 
 // Get the direction based on face
 if (len == 0) { // If not moving

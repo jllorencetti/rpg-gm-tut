@@ -1,4 +1,6 @@
 ///scr_move_state
+movement = MOVE;
+
 if (obj_input.dash_key) {
     var xdir = lengthdir_x(8, face * 90);
     var ydir = lengthdir_y(8, face * 90);
@@ -69,20 +71,4 @@ image_speed = sign(len) * .2
 
 if (len == 0) {
     image_index = 0;
-}
-
-// Set facing sprite
-switch (face) {
-    case RIGHT:
-        sprite_index = spr_player_right;
-        break;
-    case LEFT:
-        sprite_index = spr_player_left;
-        break;
-    case UP:
-        sprite_index = spr_player_up;
-        break;
-    case DOWN:
-       sprite_index = spr_player_down;
-        break;
 }
